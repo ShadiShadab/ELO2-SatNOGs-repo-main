@@ -120,9 +120,13 @@ def get_engine():
 * SatNOGS Observation Quality Factors
 * Pandas & SQLAlchemy Documentation
 
+
 **Pipeline Version:** 1.0
+
 **Observations Processed:** 198,058
+
 **Features Created:** 44
+
 **Target Variable:** `success` (75.1% positive)
 
 
