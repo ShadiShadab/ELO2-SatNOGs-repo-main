@@ -246,7 +246,7 @@ SatNOGS data is ideal for ML applications:
 - Detecting interference patterns  
 - Anomaly detection in satellite behavior  
 
-Your project fits naturally into emerging research around:
+This project fits naturally into emerging research around:
 - **automated signal identification**
 - **predictive scheduling**
 - **network resource optimization**
