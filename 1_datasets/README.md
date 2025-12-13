@@ -277,7 +277,7 @@ SatNOGS Network. (2015–2025). Satellite Observation Database. Retrieved from h
 Shadi Shadabshoar. ELO2-SatNOGs-repo-main. GitHub. https://github.com/ShadiShadab/ELO2-SatNOGs-repo-main
 
 ## Project team
-- Student: Shadi Shadabshoar  
+- Student: [Shadi Shadabshoar](https://www.linkedin.com/in/shadi-shadabshoar/)  
 - Program: MIT Emerging Talent Program in Computer and Data Science  
 - Institution: Massachusetts Institute of Technology
 
@@ -285,14 +285,3 @@ Shadi Shadabshoar. ELO2-SatNOGs-repo-main. GitHub. https://github.com/ShadiShada
 - SatNOGS data: Open Data Commons Attribution License (ODC-By).  
 - Project code: MIT License — see the repository LICENSE file for full terms.
 
-## Update log
-
-| Date       | Version | Changes                                           |
-|------------|---------|---------------------------------------------------|
-| 2024-03-XX | 1.0     | Initial dataset export and documentation          |
-| 2024-03-XX | 1.1     | Added data dictionary and sampling strategy       |
-| 2024-03-XX | 1.2     | Enhanced feature descriptions and usage examples  |
-
-Last updated: March 2024  
-Project phase: Dataset collection — complete ✅  
-Next phase: Data preparation (`2_data_preparation/`)
