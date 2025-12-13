@@ -1,9 +1,5 @@
 # 3_data_exploration/ — Exploratory Data Analysis (EDA)
 
-![License](https://img.shields.io/badge/License-MIT-blue.svg)
-![Status](https://img.shields.io/badge/EDA-Complete-brightgreen)
-![Last Updated](https://img.shields.io/badge/Last%20Updated-2024--12--12-lightgrey)
-
 ## 📋 Overview
 This directory contains notebooks for exploratory data analysis of satellite observation success patterns. The EDA phase identifies patterns, relationships, and insights that inform feature engineering and modeling decisions.
 
@@ -19,6 +15,7 @@ This directory contains notebooks for exploratory data analysis of satellite obs
 3_data_exploration/
 ├── 01_initial_eda.ipynb
 ├── 02_geographic_analysis.ipynb
+├── 03_feature_engineering.ipynb
 ├── plots/
 │   ├── 01_target_distribution.png
 │   ├── 02_temporal_patterns.png
@@ -120,6 +117,6 @@ CC BY 4.0 (Visualizations & Reports)
 
 ---
 
-*Last Updated: 2024-12-12*  
-*Version: 1.0*  
-*EDA Phase: Complete*
+
+![License](https://img.shields.io/badge/License-MIT-blue.svg)
+![Status](https://img.shields.io/badge/EDA-Complete-brightgreen)
