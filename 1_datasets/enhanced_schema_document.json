@@ -1,0 +1,829 @@
+{
+  "analysis_date": "2025-12-11T14:45:25.078835",
+  "database": "satnogs",
+  "tables": {
+    "base_antenna": {
+      "row_count": 4437,
+      "columns": [
+        "id",
+        "antenna_type_id",
+        "station_id"
+      ],
+      "preview_sample": [
+        {
+          "id": 1,
+          "antenna_type_id": 12,
+          "station_id": 256
+        },
+        {
+          "id": 2,
+          "antenna_type_id": 12,
+          "station_id": 1536
+        },
+        {
+          "id": 7,
+          "antenna_type_id": 10,
+          "station_id": 771
+        }
+      ]
+    },
+    "base_antennatype": {
+      "row_count": 17,
+      "columns": [
+        "id",
+        "name"
+      ],
+      "preview_sample": [
+        {
+          "id": 6,
+          "name": "Cross Yagi"
+        },
+        {
+          "id": 1,
+          "name": "Dipole"
+        },
+        {
+          "id": 3,
+          "name": "Discone"
+        }
+      ]
+    },
+    "base_frequencyrange": {
+      "row_count": 5311,
+      "columns": [
+        "id",
+        "min_frequency",
+        "max_frequency",
+        "antenna_id"
+      ],
+      "preview_sample": [
+        {
+          "id": 1,
+          "min_frequency": 135000000,
+          "max_frequency": 148000000,
+          "antenna_id": 1
+        },
+        {
+          "id": 2,
+          "min_frequency": 430000000,
+          "max_frequency": 440000000,
+          "antenna_id": 2
+        },
+        {
+          "id": 7,
+          "min_frequency": 135000000,
+          "max_frequency": 148000000,
+          "antenna_id": 7
+        }
+      ]
+    },
+    "base_launch": {
+      "row_count": 0,
+      "columns": [
+        "id",
+        "name",
+        "forum_thread_url",
+        "created",
+        "created_by_id"
+      ],
+      "preview_sample": []
+    },
+    "base_mode": {
+      "row_count": 56,
+      "columns": [
+        "id",
+        "name"
+      ],
+      "preview_sample": [
+        {
+          "id": 90,
+          "name": "4FSK"
+        },
+        {
+          "id": 49,
+          "name": "AFSK"
+        },
+        {
+          "id": 78,
+          "name": "AFSK TUBiX10"
+        }
+      ]
+    },
+    "base_observation": {
+      "row_count": 12546241,
+      "columns": [
+        "id",
+        "start",
+        "end",
+        "author_id",
+        "ground_station_id",
+        "max_altitude",
+        "rise_azimuth",
+        "set_azimuth",
+        "waterfall_status_datetime",
+        "vetted_status",
+        "waterfall_status_user_id",
+        "archive_identifier",
+        "archive_url",
+        "archived",
+        "experimental",
+        "client_metadata",
+        "client_version",
+        "transmitter_baud",
+        "transmitter_created",
+        "transmitter_description",
+        "transmitter_downlink_drift",
+        "transmitter_downlink_high",
+        "transmitter_downlink_low",
+        "transmitter_invert",
+        "transmitter_type",
+        "transmitter_uplink_drift",
+        "transmitter_uplink_high",
+        "transmitter_uplink_low",
+        "transmitter_uuid",
+        "transmitter_mode",
+        "status",
+        "waterfall_status",
+        "tle_line_0",
+        "tle_line_1",
+        "tle_line_2",
+        "tle_source",
+        "tle_updated",
+        "station_alt",
+        "station_antennas",
+        "station_lat",
+        "station_lng",
+        "audio_zipped",
+        "payload",
+        "waterfall",
+        "center_frequency",
+        "transmitter_status",
+        "transmitter_unconfirmed",
+        "sat_id"
+      ],
+      "preview_sample": [
+        {
+          "id": 23,
+          "start": "2015-10-12 15:13:16",
+          "end": "2015-10-12 15:20:01",
+          "author_id": 165,
+          "ground_station_id": 2,
+          "max_altitude": null,
+          "rise_azimuth": null,
+          "set_azimuth": null,
+          "waterfall_status_datetime": "2017-05-26 08:04:08",
+          "vetted_status": "bad",
+          "waterfall_status_user_id": 172,
+          "archive_identifier": "satnogs-observations-000000001-000010000",
+          "archive_url": "https://archive.org/download/satnogs-observations-000000001-000010000/satnogs-observations-000000001-000001000.zip/satnogs_23_2015-10-12T15-20-01.ogg",
+          "archived": 1,
+          "experimental": 0,
+          "client_metadata": "",
+          "client_version": "",
+          "transmitter_baud": NaN,
+          "transmitter_created": "2019-04-18 05:39:53.343316",
+          "transmitter_description": "CW Beacon (F2A)",
+          "transmitter_downlink_drift": null,
+          "transmitter_downlink_high": null,
+          "transmitter_downlink_low": 435948500,
+          "transmitter_invert": 0,
+          "transmitter_type": "Transmitter",
+          "transmitter_uplink_drift": null,
+          "transmitter_uplink_high": null,
+          "transmitter_uplink_low": NaN,
+          "transmitter_uuid": "MZgyEeYrdJsLnHCt3je6Ed",
+          "transmitter_mode": "FM",
+          "status": -100,
+          "waterfall_status": null,
+          "tle_line_0": "",
+          "tle_line_1": "",
+          "tle_line_2": "",
+          "tle_source": "",
+          "tle_updated": null,
+          "station_alt": null,
+          "station_antennas": null,
+          "station_lat": null,
+          "station_lng": null,
+          "audio_zipped": 1,
+          "payload": "",
+          "waterfall": "",
+          "center_frequency": null,
+          "transmitter_status": null,
+          "transmitter_unconfirmed": null,
+          "sat_id": "UTXU-4881-3195-9394-3367"
+        },
+        {
+          "id": 25,
+          "start": "2015-10-12 17:03:08",
+          "end": "2015-10-12 17:15:37",
+          "author_id": 165,
+          "ground_station_id": 2,
+          "max_altitude": null,
+          "rise_azimuth": null,
+          "set_azimuth": null,
+          "waterfall_status_datetime": "2017-05-26 08:18:15",
+          "vetted_status": "bad",
+          "waterfall_status_user_id": 172,
+          "archive_identifier": "satnogs-observations-000000001-000010000",
+          "archive_url": "https://archive.org/download/satnogs-observations-000000001-000010000/satnogs-observations-000000001-000001000.zip/satnogs_25_2015-10-12T17-15-37.ogg",
+          "archived": 1,
+          "experimental": 0,
+          "client_metadata": "",
+          "client_version": "",
+          "transmitter_baud": NaN,
+          "transmitter_created": "2019-04-18 05:39:53.343316",
+          "transmitter_description": "CW TLM",
+          "transmitter_downlink_drift": null,
+          "transmitter_downlink_high": null,
+          "transmitter_downlink_low": 437485000,
+          "transmitter_invert": 0,
+          "transmitter_type": "Transmitter",
+          "transmitter_uplink_drift": null,
+          "transmitter_uplink_high": null,
+          "transmitter_uplink_low": NaN,
+          "transmitter_uuid": "xfcdPcSWKbqzRDxZZ79yhX",
+          "transmitter_mode": "CW",
+          "status": -100,
+          "waterfall_status": null,
+          "tle_line_0": "",
+          "tle_line_1": "",
+          "tle_line_2": "",
+          "tle_source": "",
+          "tle_updated": null,
+          "station_alt": null,
+          "station_antennas": null,
+          "station_lat": null,
+          "station_lng": null,
+          "audio_zipped": 1,
+          "payload": "",
+          "waterfall": "",
+          "center_frequency": null,
+          "transmitter_status": null,
+          "transmitter_unconfirmed": null,
+          "sat_id": "FVYN-9469-5031-2236-7972"
+        },
+        {
+          "id": 27,
+          "start": "2015-10-12 17:30:27",
+          "end": "2015-10-12 17:43:51",
+          "author_id": 165,
+          "ground_station_id": 2,
+          "max_altitude": null,
+          "rise_azimuth": null,
+          "set_azimuth": null,
+          "waterfall_status_datetime": "2017-05-26 08:22:41",
+          "vetted_status": "bad",
+          "waterfall_status_user_id": 172,
+          "archive_identifier": "satnogs-observations-000000001-000010000",
+          "archive_url": "https://archive.org/download/satnogs-observations-000000001-000010000/satnogs-observations-000000001-000001000.zip/satnogs_27_2015-10-12T17-43-51.ogg",
+          "archived": 1,
+          "experimental": 0,
+          "client_metadata": "",
+          "client_version": "",
+          "transmitter_baud": 1200.0,
+          "transmitter_created": "2019-04-18 05:39:53.343316",
+          "transmitter_description": "AFSK 1200",
+          "transmitter_downlink_drift": null,
+          "transmitter_downlink_high": null,
+          "transmitter_downlink_low": 437438300,
+          "transmitter_invert": 1,
+          "transmitter_type": "Transceiver",
+          "transmitter_uplink_drift": null,
+          "transmitter_uplink_high": null,
+          "transmitter_uplink_low": 437438300.0,
+          "transmitter_uuid": "MTMEfksHRarmn9mxBJuEF4",
+          "transmitter_mode": "AFSK",
+          "status": -100,
+          "waterfall_status": null,
+          "tle_line_0": "",
+          "tle_line_1": "",
+          "tle_line_2": "",
+          "tle_source": "",
+          "tle_updated": null,
+          "station_alt": null,
+          "station_antennas": null,
+          "station_lat": null,
+          "station_lng": null,
+          "audio_zipped": 1,
+          "payload": "",
+          "waterfall": "",
+          "center_frequency": null,
+          "transmitter_status": null,
+          "transmitter_unconfirmed": null,
+          "sat_id": "HXCH-9043-9893-2952-4877"
+        }
+      ]
+    },
+    "base_operator": {
+      "row_count": 6,
+      "columns": [
+        "id",
+        "name",
+        "names",
+        "description",
+        "website"
+      ],
+      "preview_sample": [
+        {
+          "id": 1,
+          "name": "UVG",
+          "names": "Universidad del Valle de Guatemala",
+          "description": "",
+          "website": "https://www.uvg.edu.gt/"
+        },
+        {
+          "id": 2,
+          "name": "LSF",
+          "names": "Libre Space Foundation",
+          "description": "",
+          "website": "https://libre.space"
+        },
+        {
+          "id": 3,
+          "name": "ESA",
+          "names": "European Space Agency",
+          "description": "",
+          "website": "https://www.esa.int/"
+        }
+      ]
+    },
+    "base_satellite": {
+      "row_count": 2903,
+      "columns": [
+        "id",
+        "last_modified",
+        "associated_satellite_id",
+        "satellite_entry_id",
+        "satellite_identifier_id"
+      ],
+      "preview_sample": [
+        {
+          "id": 1,
+          "last_modified": "2021-07-21 10:11:41.947596",
+          "associated_satellite_id": null,
+          "satellite_entry_id": 7538,
+          "satellite_identifier_id": 1
+        },
+        {
+          "id": 2,
+          "last_modified": "2021-07-21 10:11:41.949944",
+          "associated_satellite_id": null,
+          "satellite_entry_id": 1843,
+          "satellite_identifier_id": 2
+        },
+        {
+          "id": 3,
+          "last_modified": "2021-07-21 10:11:41.951757",
+          "associated_satellite_id": null,
+          "satellite_entry_id": 1836,
+          "satellite_identifier_id": 3
+        }
+      ]
+    },
+    "base_satelliteentry": {
+      "row_count": 9759,
+      "columns": [
+        "id",
+        "norad_cat_id",
+        "name",
+        "image",
+        "names",
+        "status",
+        "description",
+        "decayed",
+        "dashboard_url",
+        "countries",
+        "deployed",
+        "launched",
+        "website",
+        "operator_id",
+        "norad_follow_id",
+        "approved",
+        "citation",
+        "created",
+        "created_by_id",
+        "reviewed",
+        "reviewer_id",
+        "satellite_identifier_id",
+        "launch_id",
+        "receive_review_update",
+        "review_message"
+      ],
+      "preview_sample": [
+        {
+          "id": 1,
+          "norad_cat_id": 7530,
+          "name": "OSCAR 7",
+          "image": "satellites/AO-7-Model-300x180.gif",
+          "names": "AO-7",
+          "status": "alive",
+          "description": "This satellite was a small communications satellite designed by amateur radio operators. Attitude control was accomplished with a magnetic and damping rods. There were two beacon experiments (near 30 and 430 MHz), and two repeaters with code storage capability. The repeater receiver frequencies were near 146 and 432 MHz, and the transmitter frequencies near 30 and 146 MHz. The command system was manufactured in Australia and the second repeater in Germany.",
+          "decayed": null,
+          "dashboard_url": null,
+          "countries": "",
+          "deployed": null,
+          "launched": null,
+          "website": "",
+          "operator_id": null,
+          "norad_follow_id": null,
+          "approved": 1,
+          "citation": "CITATION NEEDED - https://xkcd.com/285/",
+          "created": "2021-07-21 10:11:41.973567",
+          "created_by_id": null,
+          "reviewed": "2021-07-21 10:11:41.973567",
+          "reviewer_id": null,
+          "satellite_identifier_id": 16,
+          "launch_id": null,
+          "receive_review_update": 0,
+          "review_message": null
+        },
+        {
+          "id": 2,
+          "norad_cat_id": 14781,
+          "name": "UOSAT 2",
+          "image": "satellites/UoSat-2.jpg",
+          "names": "UO-11\r OSCAR-11",
+          "status": "alive",
+          "description": "Also known as OSCAR 11, this British built satellite from the University of Surrey has reached the end of it's servicable life. It still transmits telemetary based when in direct sunlight and with its watchdog timer operational. This satellite was used for communications as part of a polar expedition in 1988.",
+          "decayed": null,
+          "dashboard_url": null,
+          "countries": "",
+          "deployed": null,
+          "launched": null,
+          "website": "",
+          "operator_id": null,
+          "norad_follow_id": null,
+          "approved": 1,
+          "citation": "CITATION NEEDED - https://xkcd.com/285/",
+          "created": "2021-07-21 10:11:41.977018",
+          "created_by_id": null,
+          "reviewed": "2021-07-21 10:11:41.977018",
+          "reviewer_id": null,
+          "satellite_identifier_id": 18,
+          "launch_id": null,
+          "receive_review_update": 0,
+          "review_message": null
+        },
+        {
+          "id": 3,
+          "norad_cat_id": 20442,
+          "name": "LUSAT",
+          "image": "satellites/LUSAT-1.gif",
+          "names": "LO-19",
+          "status": "alive",
+          "description": "Lusat was launched by the same Ariane vehicle that launched SPOT-2 from the Kourou Space Center in French Guiana. It was an AMSAT amateur radio satellite. It carried a CCD camera for earth photography.",
+          "decayed": null,
+          "dashboard_url": null,
+          "countries": "",
+          "deployed": null,
+          "launched": null,
+          "website": "",
+          "operator_id": null,
+          "norad_follow_id": null,
+          "approved": 1,
+          "citation": "CITATION NEEDED - https://xkcd.com/285/",
+          "created": "2021-07-21 10:11:41.982120",
+          "created_by_id": null,
+          "reviewed": "2021-07-21 10:11:41.982120",
+          "reviewer_id": null,
+          "satellite_identifier_id": 21,
+          "launch_id": null,
+          "receive_review_update": 0,
+          "review_message": null
+        }
+      ]
+    },
+    "base_satelliteidentifier": {
+      "row_count": 2920,
+      "columns": [
+        "id",
+        "sat_id",
+        "created"
+      ],
+      "preview_sample": [
+        {
+          "id": 1,
+          "sat_id": "SCHX-0895-2361-9925-0309",
+          "created": "2021-07-21 10:11:41.945257"
+        },
+        {
+          "id": 2,
+          "sat_id": "AMOM-6643-5608-9156-4431",
+          "created": "2021-07-21 10:11:41.948554"
+        },
+        {
+          "id": 3,
+          "sat_id": "KEFJ-8497-6394-9368-1937",
+          "created": "2021-07-21 10:11:41.950438"
+        }
+      ]
+    },
+    "base_station": {
+      "row_count": 3912,
+      "columns": [
+        "id",
+        "name",
+        "image",
+        "alt",
+        "lat",
+        "lng",
+        "featured_date",
+        "owner_id",
+        "created",
+        "qthlocator",
+        "last_seen",
+        "horizon",
+        "description",
+        "status",
+        "testing",
+        "client_version",
+        "target_utilization",
+        "violator_scheduling",
+        "client_id",
+        "active_configuration_changed"
+      ],
+      "preview_sample": [
+        {
+          "id": 1,
+          "name": "Hackerspace.gr 1",
+          "image": "ground_stations/269750681_642106180166521_5486265361356106346_n.jpg",
+          "alt": 104,
+          "lat": 38.01697,
+          "lng": 23.7314,
+          "featured_date": "2015-10-11",
+          "owner_id": 848,
+          "created": "2015-07-22 13:26:49",
+          "qthlocator": "KM18ua",
+          "last_seen": "2022-10-05 12:49:26",
+          "horizon": 40,
+          "description": "Yaesu 5500, usrp b200, 2x X-Quad  Antenna 432 MHz, Power splitter, LNA (https://gitlab.com/rf-modules/rf-low-noise-amplifier), RF-Switch (https://gitlab.com/rf-modules/rf-modules), RF Power Amplifier (RA07H4047M)",
+          "status": 0,
+          "testing": 1,
+          "client_version": "1.6",
+          "target_utilization": 100,
+          "violator_scheduling": 1,
+          "client_id": "",
+          "active_configuration_changed": null
+        },
+        {
+          "id": 2,
+          "name": "KB9JHU",
+          "image": "ground_stations/kb9jhu_P52k3jV.png",
+          "alt": 280,
+          "lat": 39.236,
+          "lng": -86.305,
+          "featured_date": "2017-07-11",
+          "owner_id": 165,
+          "created": "2015-07-22 14:24:10",
+          "qthlocator": "EM69uf",
+          "last_seen": "2025-07-29 22:39:46",
+          "horizon": 5,
+          "description": "Yaesu G-5500 with M2 cross yagi antennas and S-band parabolic dish\r\n\r\nNOTE: S-band temporarily offline",
+          "status": 0,
+          "testing": 0,
+          "client_version": "1.8.1",
+          "target_utilization": 100,
+          "violator_scheduling": 0,
+          "client_id": "",
+          "active_configuration_changed": null
+        },
+        {
+          "id": 4,
+          "name": "SV1IYO",
+          "image": "",
+          "alt": 150,
+          "lat": 38.024,
+          "lng": 23.733,
+          "featured_date": null,
+          "owner_id": 168,
+          "created": "2015-10-11 13:59:38",
+          "qthlocator": "KM18ua",
+          "last_seen": "2024-12-24 09:37:11",
+          "horizon": 0,
+          "description": "",
+          "status": 0,
+          "testing": 1,
+          "client_version": "1.9.2+0.g4da08be.dirty",
+          "target_utilization": 100,
+          "violator_scheduling": 1,
+          "client_id": "",
+          "active_configuration_changed": null
+        }
+      ]
+    },
+    "base_stationstatuslog": {
+      "row_count": 298893,
+      "columns": [
+        "id",
+        "status",
+        "changed",
+        "station_id"
+      ],
+      "preview_sample": [
+        {
+          "id": 1,
+          "status": 2,
+          "changed": "2018-04-02 13:55:58",
+          "station_id": 6
+        },
+        {
+          "id": 3,
+          "status": 2,
+          "changed": "2018-04-02 13:55:58",
+          "station_id": 12
+        },
+        {
+          "id": 4,
+          "status": 2,
+          "changed": "2018-04-02 13:55:58",
+          "station_id": 13
+        }
+      ]
+    },
+    "base_stationtype": {
+      "row_count": 1,
+      "columns": [
+        "id",
+        "name"
+      ],
+      "preview_sample": [
+        {
+          "id": 1,
+          "name": "RF"
+        }
+      ]
+    },
+    "base_telemetry": {
+      "row_count": 185,
+      "columns": [
+        "id",
+        "name",
+        "decoder",
+        "satellite_id"
+      ],
+      "preview_sample": [
+        {
+          "id": 1,
+          "name": "ISS AX.25",
+          "decoder": "iss",
+          "satellite_id": 28
+        },
+        {
+          "id": 2,
+          "name": "STRAND-1 Telemetry",
+          "decoder": "strand",
+          "satellite_id": 87
+        },
+        {
+          "id": 3,
+          "name": "UNISAT-6 Telemetry",
+          "decoder": "us6",
+          "satellite_id": 132
+        }
+      ]
+    },
+    "base_transmitterentry": {
+      "row_count": 9869,
+      "columns": [
+        "id",
+        "uuid",
+        "description",
+        "uplink_low",
+        "uplink_high",
+        "downlink_low",
+        "downlink_high",
+        "invert",
+        "baud",
+        "approved",
+        "downlink_mode_id",
+        "downlink_drift",
+        "type",
+        "uplink_drift",
+        "citation",
+        "created",
+        "status",
+        "created_by_id",
+        "service",
+        "uplink_mode_id",
+        "reviewed",
+        "reviewer_id",
+        "satellite_id",
+        "iaru_coordination",
+        "iaru_coordination_url",
+        "itu_notification",
+        "unconfirmed",
+        "receive_review_update",
+        "review_message"
+      ],
+      "preview_sample": [
+        {
+          "id": 1,
+          "uuid": "ZAKErADdWKpMiDjvKKhmmB",
+          "description": "Mode U TLM",
+          "uplink_low": NaN,
+          "uplink_high": null,
+          "downlink_low": 437125000,
+          "downlink_high": null,
+          "invert": 0,
+          "baud": 12.0,
+          "approved": 1,
+          "downlink_mode_id": 6,
+          "downlink_drift": NaN,
+          "type": "Transmitter",
+          "uplink_drift": null,
+          "citation": "CITATION NEEDED - https://xkcd.com/285/",
+          "created": "2019-04-18 05:39:53.343316",
+          "status": "active",
+          "created_by_id": null,
+          "service": "Unknown",
+          "uplink_mode_id": NaN,
+          "reviewed": "2019-04-18 05:39:53.343316",
+          "reviewer_id": null,
+          "satellite_id": 21,
+          "iaru_coordination": "N/A",
+          "iaru_coordination_url": "",
+          "itu_notification": "{\"urls\": []}",
+          "unconfirmed": 0,
+          "receive_review_update": 0,
+          "review_message": null
+        },
+        {
+          "id": 3,
+          "uuid": "ybJ86zjXzQxDReZ5skY56B",
+          "description": "Mode H TLM",
+          "uplink_low": NaN,
+          "uplink_high": null,
+          "downlink_low": 29352000,
+          "downlink_high": null,
+          "invert": 0,
+          "baud": 0.0,
+          "approved": 1,
+          "downlink_mode_id": 6,
+          "downlink_drift": NaN,
+          "type": "Transmitter",
+          "uplink_drift": null,
+          "citation": "CITATION NEEDED - https://xkcd.com/285/",
+          "created": "2019-04-18 05:39:53.343316",
+          "status": "active",
+          "created_by_id": null,
+          "service": "Unknown",
+          "uplink_mode_id": NaN,
+          "reviewed": "2019-04-18 05:39:53.343316",
+          "reviewer_id": null,
+          "satellite_id": 24,
+          "iaru_coordination": "N/A",
+          "iaru_coordination_url": "",
+          "itu_notification": "{\"urls\": []}",
+          "unconfirmed": 0,
+          "receive_review_update": 0,
+          "review_message": null
+        },
+        {
+          "id": 5,
+          "uuid": "Zqa2ebzyRRBffvwkLnjTVc",
+          "description": "Mode U CW Beacon",
+          "uplink_low": NaN,
+          "uplink_high": null,
+          "downlink_low": 435795000,
+          "downlink_high": null,
+          "invert": 0,
+          "baud": 0.0,
+          "approved": 1,
+          "downlink_mode_id": 6,
+          "downlink_drift": 1147.0,
+          "type": "Transmitter",
+          "uplink_drift": null,
+          "citation": "CITATION NEEDED - https://xkcd.com/285/",
+          "created": "2019-04-18 05:39:53.343316",
+          "status": "active",
+          "created_by_id": null,
+          "service": "Unknown",
+          "uplink_mode_id": NaN,
+          "reviewed": "2019-04-18 05:39:53.343316",
+          "reviewer_id": null,
+          "satellite_id": 25,
+          "iaru_coordination": "N/A",
+          "iaru_coordination_url": "",
+          "itu_notification": "{\"urls\": []}",
+          "unconfirmed": 0,
+          "receive_review_update": 0,
+          "review_message": null
+        }
+      ]
+    }
+  },
+  "key_findings": {
+    "observation_status_codes": {
+      "100": "Most common (46.1M rows) - possibly 'in progress'",
+      "-100": "2nd most common (26.2M rows) - possibly 'failed'",
+      "0": "2.5M rows - possibly 'successful'",
+      "-1000": "1M rows - possibly 'severely failed'"
+    },
+    "data_quality_issues": [
+      "station_* columns 100% NULL in observations (need join)",
+      "Many transmitter_* columns mostly NULL",
+      "Need to interpret status codes"
+    ],
+    "recommended_target_variable": "Map status=0 as success, others as failure (to be validated)"
+  }
+}
