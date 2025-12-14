@@ -1,0 +1,258 @@
+{
+  "model_info": {
+    "model_type": "RandomForestClassifier",
+    "parameters": {
+      "bootstrap": true,
+      "ccp_alpha": 0.0,
+      "class_weight": null,
+      "criterion": "gini",
+      "max_depth": 15,
+      "max_features": "sqrt",
+      "max_leaf_nodes": null,
+      "max_samples": null,
+      "min_impurity_decrease": 0.0,
+      "min_samples_leaf": 2,
+      "min_samples_split": 5,
+      "min_weight_fraction_leaf": 0.0,
+      "monotonic_cst": null,
+      "n_estimators": 300,
+      "n_jobs": -1,
+      "oob_score": false,
+      "random_state": 42,
+      "verbose": 0,
+      "warm_start": false
+    },
+    "performance": {
+      "best_model": "RandomForest_Tuned",
+      "test_accuracy": 0.8828054716154183,
+      "test_precision": 0.8640733487626847,
+      "test_recall": 0.9054826146778293,
+      "test_f1": 0.8842934739287381,
+      "test_roc_auc": 0.9464366475239954,
+      "confusion_matrix": [
+        [
+          37713,
+          6108
+        ],
+        [
+          4053,
+          38828
+        ]
+      ],
+      "false_positive_rate": 0.13938522626138153,
+      "false_negative_rate": 0.09451738532217066,
+      "business_impact": {
+        "random_success_rate": 0.49457913312265,
+        "model_success_rate": 0.8828054716154183,
+        "improvement_percentage": 38.82263384927683,
+        "failed_observations_reduction": 76.81248716368864
+      },
+      "generalization_check": {
+        "f1_difference": 0.0007263344946940586,
+        "roc_auc_difference": 0.0008604209749970559,
+        "good_generalization": true
+      },
+      "evaluation_timestamp": "2025-12-12 22:26:37"
+    }
+  },
+  "feature_analysis": {
+    "permutation_importance": [
+      {
+        "feature": "archived",
+        "importance_mean": 0.11139999999999999,
+        "importance_std": 0.00516139516022558
+      },
+      {
+        "feature": "year",
+        "importance_mean": 0.10739999999999998,
+        "importance_std": 0.005122499389946284
+      },
+      {
+        "feature": "station_lat",
+        "importance_mean": 0.06239999999999994,
+        "importance_std": 0.004270831300812529
+      },
+      {
+        "feature": "station_alt",
+        "importance_mean": 0.05939999999999994,
+        "importance_std": 0.009002221947941527
+      },
+      {
+        "feature": "station_lng",
+        "importance_mean": 0.045399999999999996,
+        "importance_std": 0.005919459434779456
+      },
+      {
+        "feature": "abs_latitude",
+        "importance_mean": 0.043400000000000036,
+        "importance_std": 0.0018547236990991425
+      },
+      {
+        "feature": "horizon",
+        "importance_mean": 0.029800000000000028,
+        "importance_std": 0.00271293199325011
+      },
+      {
+        "feature": "station_status",
+        "importance_mean": 0.024400000000000022,
+        "importance_std": 0.009769339793455858
+      },
+      {
+        "feature": "experimental",
+        "importance_mean": 0.021200000000000017,
+        "importance_std": 0.004261455150532507
+      },
+      {
+        "feature": "rise_azimuth",
+        "importance_mean": 0.015400000000000014,
+        "importance_std": 0.0029393876913398165
+      }
+    ],
+    "model_feature_importance": [
+      {
+        "feature": "station_lat",
+        "importance": 0.14381059519051378
+      },
+      {
+        "feature": "abs_latitude",
+        "importance": 0.12420097324984086
+      },
+      {
+        "feature": "station_alt",
+        "importance": 0.11780082001605933
+      },
+      {
+        "feature": "station_lng",
+        "importance": 0.10617704314712152
+      },
+      {
+        "feature": "year",
+        "importance": 0.08148934475063677
+      },
+      {
+        "feature": "horizon",
+        "importance": 0.0750542795487713
+      },
+      {
+        "feature": "archived",
+        "importance": 0.06097723166746821
+      },
+      {
+        "feature": "duration_seconds",
+        "importance": 0.05415867066663765
+      },
+      {
+        "feature": "station_status",
+        "importance": 0.033750146624507225
+      },
+      {
+        "feature": "day_of_year",
+        "importance": 0.033387682720994016
+      }
+    ],
+    "top_features": [
+      "archived",
+      "year",
+      "station_lat",
+      "station_alt",
+      "station_lng"
+    ],
+    "feature_categories": {
+      "Geographic": [
+        "max_altitude",
+        "station_lat",
+        "station_lng",
+        "station_alt",
+        "altitude_squared",
+        "altitude_log",
+        "abs_latitude"
+      ],
+      "Temporal": [
+        "year",
+        "hour_of_day",
+        "day_of_week",
+        "month",
+        "day_of_year",
+        "week_of_year",
+        "hour_sin",
+        "hour_cos",
+        "month_sin",
+        "month_cos"
+      ],
+      "Satellite": [
+        "max_altitude",
+        "rise_azimuth",
+        "set_azimuth",
+        "duration_seconds",
+        "altitude_squared",
+        "altitude_log"
+      ],
+      "Station": [
+        "station_lat",
+        "station_lng",
+        "station_alt",
+        "station_status"
+      ],
+      "Other": [
+        "archived",
+        "experimental",
+        "horizon"
+      ]
+    }
+  },
+  "error_analysis": {
+    "confusion_matrix": {
+      "true_positives": 38828,
+      "true_negatives": 37713,
+      "false_positives": 6108,
+      "false_negatives": 4053
+    },
+    "error_rates": {
+      "false_positive_rate": 0.13938522626138153,
+      "false_negative_rate": 0.09451738532217066
+    },
+    "confidence_analysis": {
+      "average_confidence_all": 0.4973700171177998,
+      "average_confidence_correct": 0.48806993275350796,
+      "average_confidence_incorrect": 0.5674258932448799
+    }
+  },
+  "interpretation_insights": {
+    "key_relationships": [
+      "Archived status is most important (19.0%)",
+      "Geographic features (lat/lng/alt) account for 28.5% importance",
+      "Temporal patterns show strong predictive power"
+    ],
+    "decision_boundaries": {
+      "optimal_archive_status": "ARCHIVED",
+      "optimal_latitude_range": "40.2\u00b0 to 52.7\u00b0",
+      "optimal_altitude": "110m"
+    },
+    "limitations": [
+      "Complex feature interactions (12 strong correlations found)",
+      "Some misclassifications persist (10,161 errors)",
+      "Confidence varies across scenarios (std: 0.332)"
+    ]
+  },
+  "business_recommendations": {
+    "immediate_actions": [
+      "Implement model in scheduling system",
+      "Prioritize archived features",
+      "Set confidence threshold at 0.03"
+    ],
+    "long_term_strategy": [
+      "Expand feature set with weather data",
+      "Regular quarterly retraining",
+      "A/B testing implementation"
+    ]
+  },
+  "analysis_timestamp": "2025-12-13 00:01:06",
+  "files_generated": [
+    "permutation_importance_plot.png",
+    "partial_dependence_plots.png",
+    "prediction_confidence_histogram.png",
+    "error_patterns_visualization.png",
+    "model_interpretation_report.md",
+    "executive_summary.md"
+  ]
+}

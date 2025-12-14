@@ -1,0 +1,13 @@
+feature1,feature2,correlation
+month,day_of_year,0.9963975399516811
+day_of_year,week_of_year,0.9781632392228342
+month,week_of_year,0.9762654961180794
+max_altitude,altitude_squared,0.9740410026315143
+max_altitude,altitude_log,0.9271791752535701
+altitude_squared,altitude_log,0.8306067546913685
+hour_of_day,hour_sin,0.7707970218536143
+month,month_sin,0.7569066945008754
+day_of_year,month_sin,0.7541150933316637
+week_of_year,month_sin,0.7512832038018299
+station_lat,abs_latitude,0.7054861723021439
+archived,year,0.5402750192855469
