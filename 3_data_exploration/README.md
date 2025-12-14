@@ -33,30 +33,32 @@ This directory contains notebooks for exploratory data analysis of satellite obs
 └── README.md
 ```
 
-## 📊 Workflow Diagram (ASCII)
+---
+
+## 🧭 High-Level Diagram (ASCII)
+
 ```
-Sample Dataset (50,000 rows)
-          |
-          v
-+------------------------+
-|  Temporal Exploration  |
-+------------------------+
-          |
-          v
-+------------------------+
-|  Geometric Analysis    |
-+------------------------+
-          |
-          v
-+------------------------+
-| Geographic Exploration |
-+------------------------+
-          |
-          v
-+------------------------+
-|     Insight Reports    |
-+------------------------+
+              ┌───────────────────────────┐
+              │     Raw SatNOGS Data      │
+              └─────────────┬─────────────┘
+                            │
+                            ▼
+               ┌────────────────────────┐
+               │  EDA Sample (50,000)   │
+               └─────────────┬──────────┘
+                             │
+     ┌───────────────────────┼────────────────────────┐
+     ▼                       ▼                        ▼
+Temporal Analysis     Geometric Analysis       Geographic Analysis
+(hour/day/season)     (altitude, duration)     (region, hemisphere)
+     └───────────────────────┬────────────────────────┘
+                             ▼
+                ┌──────────────────────────┐
+                │   Feature Engineering    │
+                └──────────────────────────┘
 ```
+
+---
 
 ## 🚀 Key Notebooks
 
@@ -108,7 +110,8 @@ Located in `plots/` and `geo_plots/`.
 Run both notebooks sequentially with the sample dataset.
 
 ## 👥 Contributors
-Primary Analyst: Your Name  
+Primary Analyst: [Shadi Shadabshoar](https://www.linkedin.com/in/shadi-shadabshoar/)
+
 MIT Emerging Talent Program
 
 ## 📄 License
