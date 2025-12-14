@@ -1,4 +1,4 @@
-# 2_data_preparation/ --- Data Preparation Stage
+#  Data Preparation 
 
 ## 📋 Overview
 
@@ -141,13 +141,6 @@ Ambiguous observations (42.20%) filtered out.
 ## 📚 References
 
 SatNOGS DB, API, Docs, plus ML feature engineering references.
-
-------------------------------------------------------------------------
-
-## 👥 Contributors
-
-Primary Developer: Shadi Shadabshoar
-MIT Emerging Talent Program
 
 ------------------------------------------------------------------------
 
