@@ -271,7 +271,7 @@ GitHub: https://github.com/satnogs
 - For dataset changes, document the sampling or processing rationale and note any downstream effects on analyses or models.
 
 ### How to cite the dataset
-SatNOGS Network. (2015–2025). Satellite Observation Database. Retrieved from https://network.satnogs.org/
+SatNOGS Network. You can have access to the dataset I used for this project (2015–2025) [here](https://drive.google.com/drive/folders/1A30kx6fK31QP-aTVHl6mFSN3VMp53BHt?usp=sharing), which is the Satellite Observation Database. Retrieved from https://network.satnogs.org/
 
 ### How to cite this project
 Shadi Shadabshoar. ELO2-SatNOGs-repo-main. GitHub. https://github.com/ShadiShadab/ELO2-SatNOGs-repo-main
