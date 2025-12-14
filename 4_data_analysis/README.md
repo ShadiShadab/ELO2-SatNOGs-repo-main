@@ -1,21 +1,5 @@
 # 🛰️ Satellite Pass Prediction & Observation Success Rate
-## Machine Learning Modeling – Phase 4
----
-
-## 📌 Table of Contents
-1. Overview  
-2. Business Impact  
-3. Project Structure  
-4. Dataset Information  
-5. Data Leakage Discovery  
-6. Modeling Pipeline  
-7. Model Performance  
-8. Model Interpretation  
-9. Business Rules  
-10. Technical Insights  
-11. Outputs  
-12. Reproducibility  
-13. License & Credits  
+## Machine Learning Modeling – Data Analysis
 
 ---
 
@@ -168,7 +152,7 @@ if prediction_probability > 0.90:
 - **Reports & Visuals**: CC BY 4.0  
 - **Data**: SatNOGS Open Database License  
 
-**Author**: [Shadi Shadabshoar]  
+**Author**: [Shadi Shadabshoar](https://www.linkedin.com/in/shadi-shadabshoar/)  
 **Program**: MIT Emerging Talent – Computer & Data Science
 
 
