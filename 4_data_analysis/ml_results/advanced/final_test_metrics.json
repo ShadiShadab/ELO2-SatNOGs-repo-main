@@ -1,0 +1,32 @@
+{
+  "best_model": "RandomForest_Tuned",
+  "test_accuracy": 0.8828054716154183,
+  "test_precision": 0.8640733487626847,
+  "test_recall": 0.9054826146778293,
+  "test_f1": 0.8842934739287381,
+  "test_roc_auc": 0.9464366475239954,
+  "confusion_matrix": [
+    [
+      37713,
+      6108
+    ],
+    [
+      4053,
+      38828
+    ]
+  ],
+  "false_positive_rate": 0.13938522626138153,
+  "false_negative_rate": 0.09451738532217066,
+  "business_impact": {
+    "random_success_rate": 0.49457913312265,
+    "model_success_rate": 0.8828054716154183,
+    "improvement_percentage": 38.82263384927683,
+    "failed_observations_reduction": 76.81248716368864
+  },
+  "generalization_check": {
+    "f1_difference": 0.0007263344946940586,
+    "roc_auc_difference": 0.0008604209749970559,
+    "good_generalization": true
+  },
+  "evaluation_timestamp": "2025-12-12 22:26:37"
+}

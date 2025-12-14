@@ -1,0 +1,27 @@
+{
+  "total_samples": 50000,
+  "train_samples": 34999,
+  "val_samples": 7501,
+  "test_samples": 7500,
+  "n_features": 17,
+  "success_rate_overall": 0.57836,
+  "success_rate_train": 0.5783593816966199,
+  "success_rate_val": 0.5783228902812958,
+  "success_rate_test": 0.5784,
+  "target_column": "good_observation",
+  "features_count": 17,
+  "first_10_features": [
+    "max_altitude",
+    "rise_azimuth",
+    "set_azimuth",
+    "archived",
+    "experimental",
+    "station_lat",
+    "station_lng",
+    "station_alt",
+    "horizon",
+    "station_status"
+  ],
+  "split_random_state": 42,
+  "timestamp": "2025-12-12 21:01:14"
+}
