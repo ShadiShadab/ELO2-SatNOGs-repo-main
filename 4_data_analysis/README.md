@@ -1,11 +1,5 @@
 # 🛰️ Satellite Pass Prediction & Observation Success Rate
 ## Machine Learning Modeling – Phase 4
-
-![MIT License](https://img.shields.io/badge/License-MIT-green.svg)
-![Project Status](https://img.shields.io/badge/Status-Phase%204%20Complete-success)
-![Last Updated](https://img.shields.io/badge/Last%20Updated-Dec%202024-blue)
-![ML](https://img.shields.io/badge/Machine%20Learning-RandomForest%20%7C%20XGBoost-orange)
-
 ---
 
 ## 📌 Table of Contents
@@ -61,7 +55,7 @@ The objective is to predict whether a satellite observation will succeed, enabli
 ---
 
 ## 📊 Dataset Information
-- **Source**: SatNOGS Database  
+- **Source**: [SatNOGS Database](https://drive.google.com/drive/folders/1A30kx6fK31QP-aTVHl6mFSN3VMp53BHt?usp=sharing)  
 - **Observations**: 578,010 (2021–2025)  
 - **Features**: 39 → 17 clean features  
 - **Target**: `target_success` (binary)
@@ -129,7 +123,7 @@ E --> F[Business Rules]
 ### Key Insights
 - Archived observations are **19.4%** more successful
 - Optimal latitude: **40.2° – 52.7°**
-- Performance improves in recent years
+- Performance has improved in recent years
 
 ---
 
@@ -165,7 +159,7 @@ if prediction_probability > 0.90:
    - `01_baseline_models.ipynb`
    - `02_advanced_modeling.ipynb`
    - `03_model_interpretation.ipynb`
-3. Review outputs in `ml_results/`
+3. Review outputs in `ml_results/.`
 
 ---
 
@@ -174,5 +168,10 @@ if prediction_probability > 0.90:
 - **Reports & Visuals**: CC BY 4.0  
 - **Data**: SatNOGS Open Database License  
 
-**Author**: [Your Name]  
+**Author**: [Shadi Shadabshoar]  
 **Program**: MIT Emerging Talent – Computer & Data Science
+
+
+![MIT License](https://img.shields.io/badge/License-MIT-green.svg)
+![Project Status](https://img.shields.io/badge/Status-Phase%204%20Complete-success)
+![ML](https://img.shields.io/badge/Machine%20Learning-RandomForest%20%7C%20XGBoost-orange)
