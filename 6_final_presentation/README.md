@@ -23,16 +23,13 @@ This stage bridges the gap between technical development and real-world communic
 ```text
 6_final_presentation/
 ├── final_report.md              # Complete written capstone report
-├── final_report.pdf             # (Optional) PDF export for submission
-├── presentation_slides.pptx     # (Optional) Final presentation slides
+├── presentation_slides.pptx     # Final presentation slides(In progress)
 ├── figures/                     # Key plots and diagrams used in report
 │   ├── roc_curve.png
 │   ├── feature_importance.png
 │   └── confusion_matrix.png
 └── README.md                    # This file
 ```
-
-> Some files (PDF, slides, figures) may be added depending on submission or presentation requirements.
 
 ---
 
@@ -95,7 +92,7 @@ See `final_report.md` for detailed license attributions.
 
 ---
 
-## 🙏 Acknowledgments
+##  Acknowledgments
 
 - **MIT Emerging Talent Program** – Faculty, mentors, and reviewers  
 - **SatNOGS / Libre Space Foundation** – Open data and infrastructure  
@@ -115,8 +112,7 @@ MIT Emerging Talent Program – Computer & Data Science
 
 ## 📬 Notes for Reviewers
 
-This folder is **read-only** from a project lifecycle perspective.
-All experiments, models, and dashboards are finalized prior to this stage.
+All experiments, models, and dashboards are finalized before this stage.
 
 For implementation or extension, refer to:
 - `4_data_analysis/`
