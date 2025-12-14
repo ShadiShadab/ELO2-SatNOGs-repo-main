@@ -2,7 +2,7 @@
 
 ## An MIT Capstone Project with Real Impact for the SatNOGS Community
 
-![Satellite Observation Success Improvement](https://via.placeholder.com/800x400/0d47a1/ffffff?text=Success+Rate+49.5%25+→+88.3%25)
+[Satellite Observation Success Improvement](https://medium.com/@sh.shadab1988/how-machine-learning-boosted-satellite-observation-success-by-38-8-4d79ad3327cb)
 
 *When ground station operators worldwide are wasting half their observation time, the solution might just be a well-tuned Random Forest model. This is the story of how I built one—and why it matters.*
 
@@ -94,7 +94,7 @@ Random Forests and XGBoost clearly outperformed linear models, showing that the 
 
 With feature engineering and hyperparameter tuning, performance improved dramatically.
 
-![ROC Curve](https://via.placeholder.com/600x400/1976d2/ffffff?text=ROC-AUC+94.6%25)
+![ROC Curve](https://github.com/ShadiShadab/ELO2-SatNOGs-repo-main/blob/d653ed3407f31b26a9ca8265853c82cb6f6c1bdb/4_data_analysis/ml_results/advanced/final_summary_visualization.png)
 
 The best model turned out to be a **tuned Random Forest**, achieving:
 
@@ -110,7 +110,7 @@ It struck the best balance between performance, stability, and interpretability.
 
 Using **permutation feature importance**, several clear patterns emerged.
 
-![Feature Importance](https://via.placeholder.com/600x400/388e3c/ffffff?text=Archive+Status+19%25+Importance)
+![Feature Importance](https://github.com/ShadiShadab/ELO2-SatNOGs-repo-main/blob/d653ed3407f31b26a9ca8265853c82cb6f6c1bdb/4_data_analysis/ml_results/interpretation/permutation_importance_plot.png)
 
 The most important factors were:
 
