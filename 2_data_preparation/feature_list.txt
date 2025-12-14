@@ -1,0 +1,44 @@
+# Feature List for Satellite Pass Prediction
+# Generated: 2025-12-07 21:35:29
+
+## Categorical Features:
+- sat_id (1801 unique values)
+- station_name (1065 unique values)
+- qthlocator (826 unique values)
+- satellite_name (1769 unique values)
+- satellite_status (4 unique values)
+- satellite_description (883 unique values)
+- time_of_day (4 unique values)
+- season (4 unique values)
+- pass_direction (2 unique values)
+- elevation_category (3 unique values)
+- station_hemisphere (2 unique values)
+- station_alt_category (4 unique values)
+
+## Numerical Features:
+- max_altitude
+- rise_azimuth
+- set_azimuth
+- observation_status
+- waterfall_status
+- station_lat
+- station_lng
+- station_alt
+- station_horizon
+- station_status
+- norad_cat_id
+- duration_minutes
+- is_weekend
+- is_night
+- azimuth_range
+- zenith_distance
+- pass_completeness
+- satellite_alive
+- station_lat_abs
+- station_lng_abs
+- pass_quality_score
+- winter_night_factor
+- altitude_duration_product
+
+## Target:
+- success (1=Good, 0=Bad)
