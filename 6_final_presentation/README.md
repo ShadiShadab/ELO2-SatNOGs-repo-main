@@ -1,6 +1,7 @@
 # 🎓 Final Presentation & Capstone Report
 
-## Stage 6: Final Presentation
+## Stage 6: [Final Presentation](https://docs.google.com/presentation/d/1oww-OgpZyztUBgDTwZYE7hNdQDD8p5WX/edit?usp=sharing&ouid=107012121254087165708&rtpof=true&sd=true)
+
 **MIT Emerging Talent Program – Computer & Data Science**
 
 This folder contains the **final deliverables** of the capstone project *Satellite Pass Prediction & Observation Success Rate*, consolidating all technical, analytical, and communication outputs produced during the project lifecycle.
