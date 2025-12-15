@@ -3,9 +3,6 @@
 ## MIT Emerging Talent Program – Capstone Project
 
 [![MIT License](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT)
-[![Python 3.8+](https://img.shields.io/badge/Python-3.8%2B-blue.svg)](https://www.python.org/)
-[![Streamlit](https://img.shields.io/badge/Streamlit-1.28.0-FF4B4B.svg)](https://streamlit.io/)
-[![ML](https://img.shields.io/badge/Machine%20Learning-Random%20Forest%20%7C%20XGBoost-orange.svg)](https://scikit-learn.org/)
 ![Status](https://img.shields.io/badge/Project%20Status-Complete%20✅-brightgreen)
 ![Last Updated](https://img.shields.io/badge/Last%20Updated-December%202025-blue)
 
@@ -157,5 +154,6 @@ Workflow:
 “Machine learning isn’t just about accuracy; it’s about measurable real-world impact.”
   
 *Developed as part of the Emerging Talent Program in Computer and Data Science at MIT University.*
-*Last updated: December 2025*
+*December 2025*
+
 
