@@ -140,8 +140,8 @@ Workflow:
 
 ## 📄 License
 - Code: MIT License  
-- Data: SatNOGS Open Database License (ODbL)  
-- Documentation: CC BY 4.0
+- Data: SatNOGS Open Database License (ODbL) CC BY SA
+- Documentation: CC BY SA
 
 ---
 
@@ -155,5 +155,6 @@ Workflow:
   
 *Developed as part of the Emerging Talent Program in Computer and Data Science at MIT University.*
 *December 2025*
+
 
 
